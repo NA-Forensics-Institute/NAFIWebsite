@@ -1,0 +1,35 @@
+﻿body {
+    font-size: 1rem;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px !important;
+    transition: 0.6s;
+    -webkit-transition: 0.6s; /*for safari*/
+    background-color: rgba(255,255,255,0.3);
+}
+
+.home{
+    background: url("images/generic_pen.jpg");
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30vh;
+    padding-bottom: 20vh;
+}
+
+/* TEXT STYLES */
+
+.title{
+    font-size: 3rem; 
+}
+
+/* BUTTON STYLES */
+.btn-warning {
+    background-color: blue;
+}
