@@ -1,37 +1,40 @@
 <html>
 <head>
     <!-- Style imports -->
-
+    <!-- Bootstrap-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	 <link rel="stylesheet" href="index.css" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
+    <!-- Icons -->
+    <link type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="index.scss" />
-	<script src="index.js"></script>
+    <script src="index.js"></script>
     <title>NA Forensics Institute</title>
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <a type="button" class="navbar-toggle navbar-menu" data-toggle="collapse" data-target="#mainNav" id="navbarCollapseButton">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                <a class="navbar-brand">PFI</a>
-            </div>
-            <div class="collapse navbar-collapse" id="mainNav">
-                <div class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#home">Home</a></li>
-                    <li class=""><a href="#info">General Info</a></li>
-                    <li class=""><a href="#faq">FAQ</a></li>
-                    <li class=""><a href="#curriculum">Curriculum</a></li>
-                    <li class=""><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">NAFI</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#general">General Info</a>
+                    <a class="nav-item nav-link" href="#faq">FAQ</a>
+                    <a class="nav-item nav-link" href="#curriculum">Curriculum</a>
+                    <a class="nav-item nav-link" href="#team">Team</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
                 </div>
             </div>
         </div>
@@ -44,20 +47,124 @@
         <p class="subtitle">A prestigous summer camp geared towards NA Speech and Debate Students</p>
         <a id="signup-button" class="btn btn-warning" href="https://forms.gle/Q9rJgejLEToXz34t9"><b>Sign up</b></a>
         <a id="signup-button" class="btn btn-warning" href="https://forms.gle/pYVYmdAX63zSathF8"><b>Volunteer</b></a>
-		</p>
-		<p>
-        <a id="signup-button" class="btn btn-primary" href="#moreInfo" role="button"><b>More Info</b></a>
-		</p>
+        </p>
+        <p>
+            <a id="signup-button" class="btn btn-primary" href="#general" role="button"><b>More Info</b></a>
+        </p>
     </div>
 
-    <div class="container-fluid text-center general-info width-contraint" id="moreInfo">
-	A camp for middle schoolers. 
-	</div>
+    <div class="container-fluid text-center general-info width-contraint section" id="general">
+        <h1>General Info</h1>
+        <div class="row">
+            <div class="col-sm">
+                <h2><i class="fa fa-paperclip"></i>What?</h2>
+                <p>
+                    North Allegheny Forensics Institute is a week-long summer camp geared towards North Allegheny students interested
+                    in learning about speech and debate.
+                    Run by the most experienced and successful members of the North Allegheny Speech and Debate team, campers will be given
+                    an elite opportunity to enhance their public speaking, research, and argumentive skills in their choice of a forensics event.
+                </p>
+            </div>
+            <div class="col-sm">
+                <h2><i class="fa fa-calendar"></i>When?</h2>
+                <p>
+                    NAFI will be held the week of August 19-23rd, 9:00 AM - 3:30 PM.
+                </p>
+            </div>
+            <div class="col-sm">
+                <h2><i class="fa fa-map-marker"></i>Where?</h2>
+                <p>
+                    All sessions will be held at North Allegheny Senior High School.
+                </p>
+                <p>
+                    <a href="#map">10375 Perry Hwy, Wexford, PA 15090</a>
+                </p>
+            </div>
+        </div>
+    </div>
 
+    <div class="container-fluid" id="map">
+        <iframe frameborder="0" style="border:0; width:100%; height:500px;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ6T8EJS2KNIgRNwGb8sypImo&amp;key=AIzaSyBbguIxozACwWuGLAEzm_RhpFDbAKn4EFg" allowfullscreen=""></iframe>
+    </div>
+
+    <div class="container-fluid text-center general-info width-contraint section" id="faq">
+        <h1>FAQ</h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Who can Attend?</h2>
+                <p>
+                    NAFI is available to exclusively North Allegheny students, entering grades 6-11 in the 19-20 year.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>How Much Does the Program Cost?</h2>
+                <p>
+                    NAFI this year will cost $130 per person for normal registration, and $150 for late registration.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>When is the normal registration due?</h2>
+                <p>
+
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>How do I pay?</h2>
+                <p>
+
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Is there a family discount?</h2>
+                <p>
+
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Should I pack a lunch?</h2>
+                <p>
+
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>What should I bring?</h2>
+                <p>
+                    We recommend that you bring writing utensils, a notebook, a timer (a cellphone will suffice), and a laptop (if you have one).
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Who are the instructors?</h2>
+                <p>
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center general-info width-contraint section" id="curriculum">
+        <h1>Curriculum</h1>
+        <div class="row">
+
+        </div>
+    </div>
+
+    <div class="container-fluid text-center general-info width-contraint section" id="curriculum">
+        <h1>Team</h1>
+        <div class="row">
+
+        </div>
+    </div>
+
+    <!-- Contact info -->
+    <div class="container-fluid width-contraint contact-info section" id="contact">
+        <h1>CONTACT</h1>
+        <b>Questions, comments, or concerns?</b>
+        <p>Feel free to contact us at anytime.</p>
+        <a href="mailto:naforensicinstitute@gmail.com">naforensicinstitute@gmail.com</a>
+    </div>
 
     <!-- Header -->
-    <footer class="container-fluid bg-footer bg-footer-text">
-
+    <footer class="container-fluid footer section">
         <p>©2019 Jacob Pan. All rights reserved. Designed and developed by Jacob Pan.</p>
     </footer>
 

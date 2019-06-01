@@ -1,5 +1,10 @@
-﻿body {
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
     font-size: 1rem;
+    background-color: white;
 }
 
 .width-constraint {
@@ -19,14 +24,17 @@
     background-color: rgba(255,255,255,0.3);
 }
 
-/* scroll spy */
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	color: #F0AD4E !important;
-	background-color: rgba(0,0,0,0);
+.navbar-brand {
+    font-size: 2em;
+}
+
+.nav-item {
+    font-size: 1.5em;
+    margin-left: 20px;
 }
 
 .home{
-    background: url("images/generic_pen.png");
+    background: url("images/gavelbg.png");
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -36,33 +44,62 @@
 
 /* SECTION STYLES */
 
+.section {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
 .general-info {
-	padding-right: 50px;
-	padding-left: 50px;
+    background-color: #F2F5F7;
+}
 
+.contact-info {
+    text-align: center;
+    background-color: lightgray;
 
+}
+
+.footer {
+    text-align:center;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
 }
 
 /* TEXT STYLES */
 
 .title{
     font-size: 5rem; 
-	text-shadow:
+    font-weight: 600;
+/*	text-shadow:
 		-1px -1px 0 lightgrey,
 		1px -1px 0 lightgrey,
 		-1px 1px 0 lightgrey,
-		1px 1px 0 lightgrey;
+		1px 1px 0 lightgrey;*/
 }
 
 .subtitle {
 	font-size: 2rem;
-	text-shadow:
+    font-weight: 400;
+	/*text-shadow:
 		-1px -1px 0 lightgrey,
 		1px -1px 0 lightgrey,
 		-1px 1px 0 lightgrey,
-		1px 1px 0 lightgrey;
+		1px 1px 0 lightgrey;*/
 }
 
+h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+}
 
 /* BUTTON STYLES */
 .btn-warning {
@@ -87,6 +124,11 @@
 	font-size: 1.5rem;
 }
 
-.btn-warning:hover {
+.btn-primary:hover {
 	transition: all 0.4s ease 0s;
+}
+
+/* MISC */
+i {
+    margin: 9px;
 }
