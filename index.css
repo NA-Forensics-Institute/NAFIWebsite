@@ -5,6 +5,7 @@
 body {
     font-size: 1rem;
     background-color: white;
+    font-family: "Work Sans", sans-serif;
 }
 
 .width-constraint {
@@ -21,7 +22,7 @@ body {
     font-size: 16px !important;
     transition: 0.6s;
     -webkit-transition: 0.6s; /*for safari*/
-    background-color: rgba(255,255,255,0.3);
+    background-color: white;
 }
 
 .navbar-brand {
@@ -54,17 +55,31 @@ body {
     background-color: #F2F5F7;
 }
 
+
+.curriculum-info {
+    background-color: white;
+}
+
+.team-info {
+    background-color: #F2F5F7;
+}
+
 .contact-info {
     text-align: center;
     background-color: lightgray;
 
 }
 
+
 .footer {
     text-align:center;
     background-color: black;
     font-size: 1rem;
     color: white;
+}
+
+.col-lg {
+    margin: 20px;
 }
 
 /* TEXT STYLES */
