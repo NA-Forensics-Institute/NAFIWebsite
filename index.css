@@ -94,6 +94,10 @@ body {
 		1px 1px 0 lightgrey;*/
 }
 
+.title.fadeInDown {
+	animation-delay: .4s;
+}
+
 .subtitle {
 	font-size: 2rem;
     font-weight: 400;
@@ -102,6 +106,10 @@ body {
 		1px -1px 0 lightgrey,
 		-1px 1px 0 lightgrey,
 		1px 1px 0 lightgrey;*/
+}
+
+.subtitle.fadeInDown {
+	animation-delay: 1.4s;
 }
 
 h1 {
@@ -125,6 +133,10 @@ h2 {
 	margin: 5px;
 }
 
+.btn-warning.fadeInDown {
+	animation-delay: 2s;
+}
+
 .btn-warning:hover {
 	background-color: #20bf6b;
 	border-color: #20bf6b;
@@ -137,6 +149,10 @@ h2 {
 	border-color: gray;
 	padding: 15px;
 	font-size: 1.5rem;
+}
+
+.btn-primary.fadeInDown {
+	animation-delay: 2.5s;
 }
 
 .btn-primary:hover {
