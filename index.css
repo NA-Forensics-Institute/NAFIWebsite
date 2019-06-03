@@ -60,6 +60,10 @@ body {
     background-color: white;
 }
 
+	.curriculum-info p {
+    		align-text: left;
+	}
+
 .team-info {
     background-color: #F2F5F7;
 }
