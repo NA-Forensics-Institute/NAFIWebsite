@@ -5,7 +5,10 @@
 body {
     margin-top: -70px;
     font-size: 1rem;
-    font-family: "Karla", sans-serif;
+}
+
+p {
+    font-family: "Archivo";
 }
 
 .width-constraint {
@@ -28,11 +31,13 @@ body {
 
 .navbar-brand {
     font-size: 2em;
+    font-family: "Karla";
 }
 
 .nav-item {
     font-size: 1.5em;
     margin-left: 20px;
+    font-family: "Karla";
 }
 
 .home{
@@ -42,6 +47,10 @@ body {
     text-align: center;
     padding-top: 30vh;
     padding-bottom: 20vh;
+}
+
+h1, h2, .title, .subtitle {
+    font-family: "Karla";
 }
 
 /* SECTION STYLES */
@@ -70,11 +79,18 @@ body {
     background-color: white;
 }
 
+.team-info p {
+    font-size: .9rem;
+}
+
 .contact-info {
     text-align: center;
     background-color: #FCE181;
 }
 
+    .contact-info p {
+        font-family: "Karla";
+    }
 
 .footer {
     text-align:center;
@@ -83,9 +99,10 @@ body {
     color: white;
 }
 
-.footer p {
-    margin-bottom: .5rem;
-}
+    .footer p {
+        margin-bottom: .5rem;
+        font-family: "Karla";
+    }
 
 .col-lg {
     margin: 20px;
@@ -93,10 +110,10 @@ body {
 
 /* TEXT STYLES */
 
-.title{
-    font-size: 5rem; 
+.title {
+    font-size: 5rem;
     font-weight: 600;
-/*	text-shadow:
+    /*	text-shadow:
 		-1px -1px 0 lightgrey,
 		1px -1px 0 lightgrey,
 		-1px 1px 0 lightgrey,
@@ -108,9 +125,9 @@ body {
 }
 
 .subtitle {
-	font-size: 2rem;
+    font-size: 2rem;
     font-weight: 400;
-	/*text-shadow:
+    /*text-shadow:
 		-1px -1px 0 lightgrey,
 		1px -1px 0 lightgrey,
 		-1px 1px 0 lightgrey,
