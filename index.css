@@ -52,27 +52,26 @@ body {
     padding-top: 70px;
 }
 .general-info {
-    background-color: #F2F5F7;
+    background-color: #FCE181;
 }
 
 
 .curriculum-info {
-    background-color: white;
-	align-text: center;
+    background-color: #CAFAFE;
+	text-align: center;
 }
 
 	.curriculum-info p {
-    		align-text: left;
+    		text-align: left;
 	}
 
 .team-info {
-    background-color: #F2F5F7;
+    background-color: white;
 }
 
 .contact-info {
     text-align: center;
-    background-color: lightgray;
-
+    background-color: #FCE181;
 }
 
 
