@@ -195,13 +195,13 @@ i {
 
 img {
     width: 230px;
-    height: 250px;
+    height: 270px;
     padding-bottom: 20px;
     transition: all 0.4s ease 0s;
 }
 
     img:hover {
         width: 240px;
-        height: 260px;
+        height: 280px;
         
     }
