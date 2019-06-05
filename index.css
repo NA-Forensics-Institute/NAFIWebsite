@@ -65,9 +65,12 @@ h1, h2, .title, .subtitle {
     background-color: #FCE181;
 }
 
+.faq-info {
+    background-color: #C2CAD0;
+}
 
 .curriculum-info {
-    background-color: #CAFAFE;
+    background-color: #FCE181;
 	text-align: center;
 }
 
@@ -85,7 +88,7 @@ h1, h2, .title, .subtitle {
 
 .contact-info {
     text-align: center;
-    background-color: #FCE181;
+    background-color: lightgray;
 }
 
     .contact-info p {
