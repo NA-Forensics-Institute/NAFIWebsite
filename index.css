@@ -49,6 +49,7 @@ p {
     padding-bottom: 20vh;
 }
 
+
 h1, h2, .title, .subtitle {
     font-family: "Karla";
 }
@@ -200,7 +201,7 @@ img {
     transition: all 0.4s ease 0s;
 }
 
-    img:hover {
+    .team-info img:hover {
         width: 240px;
         height: 280px;
         
