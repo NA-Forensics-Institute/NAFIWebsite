@@ -200,7 +200,7 @@ h2 {
 	outline: none;
 }
 
-.active, .collapsible:hover {
+.activeD, .collapsible:hover {
  	background-color: #555;
 }
 
