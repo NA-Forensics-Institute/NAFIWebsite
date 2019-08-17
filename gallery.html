@@ -1,0 +1,85 @@
+<html>
+<head>
+    <!-- Style imports -->
+    <!-- Bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
+    <!-- Icons -->
+    <link type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>NA Forensics Institute</title>
+
+    <link rel="shortcut icon" href="images/scalesicon.png" />
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">NAFI</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="index.html">General Info</a>
+                    <a class="nav-item nav-link" href="index.html">FAQ</a>
+                    <a class="nav-item nav-link" href="index.html">Curriculum</a>
+                    <a class="nav-item nav-link" href="index.html">Team</a>
+                    <a class="nav-item nav-link" href="#">Gallery</a>
+                    <a class="nav-item nav-link" href="index.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div style="padding-top: 70px;"><h1>GALLERY</h1>
+    </div>
+
+    <!-- Images -->
+    <div class="container-fluid">
+        <img class="gallery-image" src="images/gallery/nafi1.jpg" />
+        <img class="gallery-image" src="images/gallery/nafi2.jpg" />
+    </div>
+
+
+    <!-- Header -->
+    <footer class="container-fluid footer section">
+        <p>North Allegheny Forensics Institute is a student-led summer camp through the <a href="https://www.northallegheny.org">North Allegheny School District.</a></p>
+        <p>&copy; Jacob Pan. All rights reserved. Designed and developed by Jacob Pan.</p>
+        <p>Speech and Debate descriptions cited from <a href="https://www.speechanddebate.org/competition-events">https://www.speechanddebate.org/competitionevents/</a></p>
+    </footer>
+
+
+    <!-- JS for enabling dropdown menu -->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("activeD");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+</html>

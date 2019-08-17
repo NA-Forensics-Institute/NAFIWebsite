@@ -94,6 +94,10 @@ h1, h2, .title, .subtitle {
         font-family: "Karla";
     }
 
+.gallery-info {
+    background-color: #FCE181;
+}
+
 .footer {
     text-align:center;
     background-color: black;
@@ -171,6 +175,14 @@ h2 {
 	transition: all 0.4s ease 0s;
 }
 
+.btn-light {
+    border-color: gray;
+    padding: 15px;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+
 .btn-primary {
 	text-align: center;
 	background-color: #85C1E9;
@@ -236,3 +248,8 @@ img {
         
     }
 
+.gallery-image {
+    width: 1800px;
+    height: 1388px;
+    align-content:center;
+}
