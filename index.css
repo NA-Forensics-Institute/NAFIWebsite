@@ -61,15 +61,15 @@ h1, h2, .title, .subtitle {
     padding-top: 70px;
 }
 .general-info {
-    background-color: #FCE181;
+    background-color: #F0B27A;
 }
 
 .faq-info {
-    background-color: #C2CAD0;
+    background-color: #F9E79F;
 }
 
 .curriculum-info {
-    background-color: #FCE181;
+    background-color: #F0B27A;
 	text-align: center;
 }
 
@@ -95,7 +95,7 @@ h1, h2, .title, .subtitle {
     }
 
 .gallery-info {
-    background-color: #FCE181;
+    background-color: #F0B27A;
 }
 
 .footer {
@@ -245,7 +245,7 @@ img {
     .team-info img:hover {
         width: 240px;
         height: 280px;
-        
+
     }
 
 .gallery-image {
